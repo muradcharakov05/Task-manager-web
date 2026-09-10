@@ -1,0 +1,21 @@
+# Maven build output
+target/
+*.class
+
+# IntelliJ IDEA (полностью игнорируем локальные настройки IDE)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse & NetBeans
+.classpath
+.project
+.settings/
+build/
+/nbproject/private/
+
+# Операционные системы
+.DS_Store
+Thumbs.db

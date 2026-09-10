@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Аутентификация</title>
+</head>
+<body>
+<h2>Вход в систему</h2>
+
+<!-- Форма отправляет POST-запрос с введенными данными на сервер -->
+<form action="/login" method="POST">
+    <div>
+        <label for="login">Логин:</label><br>
+        <input type="text" id="login" name="login" required placeholder="Введите логин">
+    </div>
+    <br>
+    <div>
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required placeholder="Введите пароль">
+    </div>
+    <br>
+    <button type="submit">Войти</button>
+</form>
+
+<hr>
+
+<!-- Ссылка на страницу регистрации -->
+<p>Ещё нет аккаунта? <a href="/registration">Зарегистрироваться</a></p>
+</body>
+</html>
